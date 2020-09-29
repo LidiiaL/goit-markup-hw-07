@@ -3,7 +3,7 @@
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
-    color: var(--secondary-text-color);
+    color: $secondary-text-color;
     margin: 0px;
     }
     
@@ -34,15 +34,15 @@
     .clients__icon__link:focus,
     .clients__icon__link:hover,
     .clients__icon__link:active {
-     fill: var(--accent-color);
-     border: 1px solid var(--accent-color);
-     transition: var(--animation);
+     fill: $accent-color;
+     border: 1px solid $accent-color;
+     transition: $animation;
     }
     .clients__icon :focus,
     .clients__icon :hover,
     .clients__icon :active {
-     fill: var(--accent-color);
-     transition: var(--animation);
+     fill: $accent-color;
+     transition: $animation;
     }
     
     .clients__icon.client1,
@@ -51,7 +51,7 @@
     .clients__icon.client4,
     .clients__icon.client5,
     .clients__icon.client6 {
-     fill: var(--main-text-color);
+     fill: $main-text-color;
     }
     
     .clients__icon.client1 {

@@ -2,7 +2,7 @@
 /*задаёт стили для секции наша команда*/
 
 .our-team {
-    background-color: var(--primary-button-bcg-color);
+    background-color: $primary-button-bcg-color;
     
    }
    
@@ -11,7 +11,7 @@
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    color: var(--secondary-text-color);
+    color: $secondary-text-color;
     margin-top: 0px;
     margin-bottom: 50px;
    }
@@ -34,7 +34,7 @@
     width: 270px;
     padding-bottom: 30px;
     margin: 0;
-    background-color: var(--main-white-color);
+    background-color: $main-white-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
    }
@@ -44,7 +44,7 @@
     margin-top: 30px;
     margin-bottom: 0px;
     padding: 0px;
-    color: var(--secondary-text-color);
+    color: $secondary-text-color;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -57,6 +57,7 @@
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
+    color: $main-text-color;
    } 
    
    .list.our__team__social__links {
@@ -85,9 +86,9 @@
    .our__team__social__icon__link:focus,
    .our__team__social__icon__link:hover,
    .our__team__social__icon__link:active {
-    background-color: var(--accent-color);
-    fill: var(--main-white-color);
-    transition: var(--animation);
+    background-color: $accent-color;
+    fill: $main-white-color;
+    transition: $animation;
    }
    
    .our__team__icon {

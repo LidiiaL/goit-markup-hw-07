@@ -1,7 +1,7 @@
 .section-portfolio {
     padding-top: 84px;
     padding-bottom: 94px;
-    color: var(--primary-background-color);
+    color: $primary-background-color;
    }
    
    
@@ -47,7 +47,7 @@
     background-color: rgba(33, 150, 243, 0.9);
     opacity: 1;
     
-    transition: var(--animation);
+    transition: $animation;
     transform: translateY(100%);
    }
    .portfolio__cards:hover::before,
@@ -62,17 +62,17 @@
     max-height: 168px; 
     top: 21%;
     left: 6.5%;
-    color: var(--main-white-color);
+    color: $main-white-color;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.6;
     opacity: 0;
-    transition: var(--animation);
+    transition: $animation;
    }
    
    
    .portfolio__titles {
-    color: var(--secondary-text-color);
+    color: $secondary-text-color;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -80,7 +80,7 @@
    }
    
    .portfolio__categories {
-    color: var(--main-text-color);
+    color: $main-text-color;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
