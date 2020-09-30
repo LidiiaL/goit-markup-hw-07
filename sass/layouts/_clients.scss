@@ -12,10 +12,10 @@
      flex-wrap: wrap;
      margin-top: 50px;
     }
-    .clients__list .clients__icon__items {
+    .clients__icon__items {
      margin-right: 30px;
     }
-    .clients__list .clients__icon__items:last-child {
+    .clients__icon__items:last-child {
      margin-right: 0px;
     }
     
@@ -34,17 +34,15 @@
     .clients__icon__link:focus,
     .clients__icon__link:hover,
     .clients__icon__link:active {
+        .clients__icon {
+         fill: $accent-color;
+         transition: $animation;
+        }
      fill: $accent-color;
      border: 1px solid $accent-color;
      transition: $animation;
     }
-    .clients__icon :focus,
-    .clients__icon :hover,
-    .clients__icon :active {
-     fill: $accent-color;
-     transition: $animation;
-    }
-    
+
     .clients__icon.client1,
     .clients__icon.client2,
     .clients__icon.client3,

@@ -39,23 +39,17 @@
           &:nth-child(1)::before {
     background-image: url(../images/antenna-copy.svg);
    }
+   &:nth-child(2)::before {
+      background-image: url(../images/clock-copy.svg);
+     }
+     &:nth-child(3)::before {
+      background-image: url(../images/diagram-copy.svg);
+     }
+     &:nth-child(4)::before {
+      background-image: url(../images/astronaut-copy.svg);
+     }
    }
-   .advantages__item {
-          &:nth-child(2)::before {
-    background-image: url(../images/clock-copy.svg);
-   }
-   }
-   .advantages__item {
-          &:nth-child(3)::before {
-    background-image: url(../images/diagram-copy.svg);
-   }
-   }
-   .advantages__item {
-          &:nth-child(4)::before {
-    background-image: url(../images/astronaut-copy.svg);
-   }
-   }
-
+   
    .advantages__list {
     display: flex;
     flex-wrap: wrap;
