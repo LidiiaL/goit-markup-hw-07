@@ -1,7 +1,7 @@
 body { 
   height: 100%;
   width: 100%;
-  font-family: 'Roboto', sans-serif; 
+  font-family: $roboto; 
   color: var(--main-text-color);
   letter-spacing: 0.03em;
   padding-top: 80px;
